@@ -8,7 +8,12 @@
 #include "displayheaders.h"
 #include "rps_functions.h"
 
-
+enum RPS{
+      NADA,
+      ROCK,
+      PAPER,
+      SCISSOR
+}RPS;
 
 int main(void) {
   int choice;

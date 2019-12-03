@@ -11,12 +11,7 @@
 #define EXITPROMPT "\n\nDo you want to continue or quit?\n[PRESS ANY OTHER KEY TO CONTINUE]\nType 'quit' to stop this program: "
 #define QUITTING "\n\nQuitting program. Have a nice day!"
 #define SCORES "\n\nSCORES:\tPlayer: %d\t\tPuter: %d"
-enum RPS{
-      NADA,
-      ROCK,
-      PAPER,
-      SCISSOR
-};
+
 #define rock "ROCK"
 #define paper "PAPER"
 #define scissor "SCISSORS"
