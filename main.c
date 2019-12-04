@@ -5,15 +5,13 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include "displayheaders.h"
 #include "rps_functions.h"
+#include "displayheaders.h"
 
-enum RPS{
-      NADA,
-      ROCK,
-      PAPER,
-      SCISSOR
-}RPS;
+struct scores{
+  int computer;
+  int player;
+};
 
 int main(void) {
   int choice;
@@ -23,9 +21,7 @@ int main(void) {
   bool continuePlaying = true;
 
   while(continuePlaying){
-    printf(GREETING1);
-    printf(BLAAAM1);
-    printf(GREETING2);
+
 
     scanf("%d", &choice);
 

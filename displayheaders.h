@@ -1,3 +1,6 @@
+#ifdef displayheaders_h
+#define displayheaders_h
+
 #define GREETING1 "\n|||||||||WELCOME TO RPS||||||||||\n 1 = ROCK ! 2 = PAPER ! 3 = SCISSORS !"
 #define GREETING2 "\nCHOOSE YOUR WEAPON, KNAVE: "
 #define RECEIVECHOICE "\n\nYOU HAVE CHOSEN...%s"
@@ -16,7 +19,6 @@
 #define paper "PAPER"
 #define scissor "SCISSORS"
 
-struct scores{
-  int computer;
-  int player;
-};
+
+
+#endif

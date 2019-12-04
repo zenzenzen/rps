@@ -1,9 +1,5 @@
 #include "rps_functions.h"
 
-
-
-
-
 void checkWinner(int player, int puter, struct scores * players){
   if(player==ROCK){
       if(puter==ROCK){
@@ -77,4 +73,11 @@ bool exitProgram(){
 
 void showScores(const struct scores input){
   printf(SCORES, input.player, input.computer);
+}
+
+
+void displayGreet(void){
+    printf(GREETING1);
+    printf(BLAAAM1);
+    printf(GREETING2);
 }
